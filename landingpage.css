@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  color: white;
+  font-family: "Zen Old Mincho", serif;
+}
+
+.the-beginning-of-all {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.top-bar {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  flex: 1;
+}
+
+.mid-bar {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  flex: 4;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bot-bar {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  flex: 1;
+}
+
+.title {
+  position: absolute;
+  font-size: 64px;
+  text-align: center;
+}
+.title-2 {
+  font-size: 40px;
+  display: block;
+}
+
+.page-number {
+  margin-top: auto;
+}
