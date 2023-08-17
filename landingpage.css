@@ -4,7 +4,7 @@ body {
 }
 
 div {
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: "Zen Old Mincho", serif;
 }
 
@@ -27,8 +27,8 @@ div {
 }
 
 .mid-bar {
+  flex: 4;
   width: 100%;
-  min-height: 810px;
   background-color: rgb(150, 0, 0);
 
   display: flex;
